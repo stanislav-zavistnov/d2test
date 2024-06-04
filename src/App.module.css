@@ -1,0 +1,310 @@
+/* head */
+
+.header {
+  padding: 0 234px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.headerLogo {
+  padding: 18px 75px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #064087;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.headerNavLink {
+  margin-right: 26px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: right;
+  color: #064087;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.headerNavLink__bold {
+  font-size: 22px;
+}
+
+.headerNavButton {
+  position: relative;
+  padding: 34px 15px 27px;
+  border-radius: 0 0 7px 7px;
+  background-color: #064087;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.orderCount {
+  width: 20px;
+  height: 20px;
+  padding-top: 3px;
+  position: absolute;
+  top: 55px;
+  right: 12px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ea5f0a;
+}
+
+.headerLogo:hover,
+.headerLogo:focus,
+.headerNavLink:hover,
+.headerNavLink:focus,
+.headerNavButton:hover,
+.headerNavLink:focus {
+  opacity: 0.5;
+  transition: opacity .3s ease-in-out;
+}
+
+/* body */
+
+.body {
+  padding-top: 74px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.breadcrumbsWrap {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.breadcrumbsLink {
+  font-weight: 400;
+  font-size: 14px;
+  color: #575757;
+  transition: color .3s ease-in-out;
+}
+
+.breadcrumbsLink:hover,
+.breadcrumbsLink:focus {
+  color: #000000;
+  transition: color .3s ease-in-out;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 120%;
+  color: #064087;
+}
+
+.cardsList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  list-style: none;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.imageWrap {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.CardImage {
+  width: 100%;
+  max-height: 205px;
+}
+
+.glutenFree {
+  position: absolute;
+  top: 25px;
+  right: 17px;
+}
+
+.cardItemTitle {
+  margin-bottom: 10px;
+  padding-right: 13px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.cardItemDescr {
+  margin-bottom: 20px;
+  padding-right: 13px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #aaa;
+}
+
+.cardItemSizeButtonsWrap {
+  margin-bottom: 20px;
+  padding-right: 13px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cardItemSizeButton {
+  padding: 17px 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #717171;
+}
+
+.singleSize {
+  border-radius: 81px 0 0 81px;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  border-left: 2px solid #f1f1f1;
+}
+
+.doubleSize {
+  border-radius: 0 81px 81px 0;
+  border-top: 2px solid #f1f1f1;
+  border-right: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.sizeActive {
+  border-radius: 81px;
+  background-color: #f1f1f1;
+}
+
+.cardItemOrderWrap {
+  padding-right: 13px;
+  padding-left: 20px;
+  margin-bottom: 39px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cardItemOrderCost {
+  margin-right: 34px;
+  display: block;
+  font-weight: 800;
+  font-size: 24px;
+  color: #000;
+}
+
+.cardItemOrderButtonsWrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cardItemOrderButton {
+  padding: 17px 37px;
+  border-radius: 81px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: #ea5f0a;
+}
+
+.increaseWrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 81px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  border: 2px solid #ea5f0a;
+}
+
+.increaseButton,
+.decreaseButton {
+  margin-right: 35px;
+  padding: 17px 10px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 81px 0 0 81px;
+  background-color: #ea5f0a;
+}
+
+.countProduct {
+  margin-right: 35px;
+}
+
+.decreaseButton {
+  margin-right: 0;
+  border-radius: 0 81px 81px 0;
+}
+
+@media (max-width: 1680px) {
+  
+  .header {
+    padding: 0 100px 15px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .body {
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: none;
+  }
+
+  .cardsList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cardItem {
+    margin: 0 auto;
+    max-width: 305px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardsList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .header {
+    padding: 0 15px 15px;
+  }
+
+  .cardsList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .headerLogo {
+    padding: 18px 30px;
+  }
+}
